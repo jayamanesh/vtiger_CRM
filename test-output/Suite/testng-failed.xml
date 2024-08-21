@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Runner 2(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="testNGImplementation.CreateEventTest">
+        <methods>
+          <include name="classConfiguration"/>
+          <include name="classTeardown"/>
+          <include name="methodConfiguration"/>
+          <include name="createEventTest"/>
+          <include name="methodTeardown"/>
+        </methods>
+      </class> <!-- testNGImplementation.CreateEventTest -->
+    </classes>
+  </test> <!-- Test Runner 2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Runner 1(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="testNGImplementation.CreateEventTest">
+        <methods>
+          <include name="classConfiguration"/>
+          <include name="classTeardown"/>
+          <include name="methodConfiguration"/>
+          <include name="createEventTest"/>
+          <include name="methodTeardown"/>
+        </methods>
+      </class> <!-- testNGImplementation.CreateEventTest -->
+    </classes>
+  </test> <!-- Test Runner 1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Runner 3(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="testNGImplementation.CreateEventTest">
+        <methods>
+          <include name="classConfiguration"/>
+          <include name="classTeardown"/>
+          <include name="methodConfiguration"/>
+          <include name="createEventTest"/>
+          <include name="methodTeardown"/>
+        </methods>
+      </class> <!-- testNGImplementation.CreateEventTest -->
+    </classes>
+  </test> <!-- Test Runner 3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
